@@ -2,13 +2,9 @@
   text-align: center;
 }
 
-
- *{border: solid 1px;} 
-
-
 .header{
   display: flex;
-  height:15vh;
+  height: 13vh;
   background-color: #759eda;
   align-items: center;
 }
@@ -22,26 +18,81 @@
 .find-Weather-btn{
 margin-left: 20%;
 padding: 2vh;
-color: black;
+color: rgb(0, 0, 0);
 background-color: #5879c7;
-font-size: 25px;
+font-size: 20px;
 font-weight:100;
 border: none;
 
 }
 
-
+.main{
+  margin-top:-10vh;
+  width: 40vh;
+  
+}
+.white-weather{
+  font-size: 40px;
+  margin-top: 1vh;
+  margin-bottom:1vh;
+}
 .App-body {
   background-color: #9ccef4;
   min-height: 100vh;
+  
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
   font: Raleway;
 }
-.image{
+.dailyCloud{
+  width: 70%;
+}
+.daily-temp{
+  display: flex;
+  flex-direction: row;
+  color: black;
+  align-content: space-between;
+  margin-top: 1vh;
+  margin-bottom:1vh;
+}
+.temp{
+  font-size: 25px;
+}
+.hum{
+  font-size: 20px;
+}
+.daily-temp>div{
+  padding-right: 1vh;
+}
+.daily-weather{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
 
+.weekly-weather{
+  margin-top: 5vh;
+}
+.weekly-weather div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: black;
+  
+}
+.weekly-weather div p{
+width: 20vh;
+}
+
+
+.weekCloud{
+  border:solid black;
+  width: 10vh;
+padding-right:10vh;
+}
+.white-weather{
+  font-size: 30px;
 }
