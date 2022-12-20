@@ -31,49 +31,53 @@ function App() {
 
 
 <div className="weekly-weather">
-<div className="weekly-hours">
+<div className="mon">
 <p>03:00</p>
-<p>06:00</p>
-<p>09:00</p>
-<p>12:00</p>
-<p>15:00</p>
-<p>18:00</p>
-<p>21:00</p>
-</div>
-<div>
-    <img src={mostlyCloudy} className="weekCloud"/>
-    <img src={mostlyCloudy} className="weekCloud"/>
-    <img src={clear} className="weekCloud"/>
-    <img src={clear} className="weekCloud"/>
-    <img src={clear} className="weekCloud"/>
-    <img src={clear} className="weekCloud"/>
-    <img src={mostlyCloudy} className="weekCloud"/>
-</div>
-<div className="weekly-degree">
+<img src={mostlyCloudy} className="weekCloud"/>
 <p>8°C </p>
+</div>
+<div className="tues">
+<p>06:00</p>
+<img src={mostlyCloudy} className="weekCloud"/>
 <p>9°C </p>
+</div><div className="wed">
+<p>09:00</p>
+<img src={clear} className="weekCloud"/>
 <p>14°C </p>
+</div><div className="thurs">
+<p>12:00</p>
+<img src={clear} className="weekCloud"/>
 <p>17°C </p>
+</div><div className="fri">
+<p>15:00</p>
+<img src={clear} className="weekCloud"/>
 <p>18°C </p>
+</div><div className="sat">
+<p>18:00</p>
+<img src={clear} className="weekCloud"/>
 <p>16°C </p>
+</div><div className="son">
+<p>21:00</p>
+<img src={mostlyCloudy} className="weekCloud"/>
 <p>13°C </p>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
