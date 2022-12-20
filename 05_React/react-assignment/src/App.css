@@ -1,28 +1,65 @@
-.App {
+body{
+  margin:0;
+  font-family: "Raleway", sans-serif;
+
+}
+.nav{
+  background-color: rgba(117, 158, 218, 255);
+   padding: 15px;
+  
+}
+.nav2{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+}
+button{
+  margin:0px 40px;
+  background-color: #5879c7;
+  border: 1px;
+  padding: 10px;
+}
+input{
+  background-color: rgba(117, 158, 218, 255);
+  border: none;
+  color: white;
+  outline:none;
+  
+}
+.part2{
+  background-color: rgba(156, 206, 244, 255);
+text-align: center;
+}
+.part2 h3{
+  color: white;
+}
+.part3{
+  display: flex;
+  background-color: rgba(156, 206, 244, 255);
+  padding: 29px;
+  justify-content: space-around;
+  align-items: center;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.part3 p{
+  margin-top: 0;
 }
-*{border: solid 1px;}
-
-.App-body {
-  background-color: #759eda;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  font: Raleway;
+.part2 h4{
+  margin: 0;
+  padding: 24px;
 }
-.header{
-  height: 20px;
+h2{
+  color: #030348;
 }
-.App-link {
-  color: #61dafb;
+h4{
+  color:#030348;
 }
-
+button{
+  color: rgba(3,3,72,255);
+}
+@media only screen and (max-width: 700px) {
+  .part3{flex-wrap: wrap;
+    
+  }
+}
