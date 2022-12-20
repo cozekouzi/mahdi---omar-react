@@ -2,14 +2,37 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+ *{border: solid 1px;} 
+
+
+.header{
+  display: flex;
+  height:15vh;
+  background-color: #759eda;
+  align-items: center;
 }
-*{border: solid 1px;}
+.london{
+  margin-left: 2%;
+  font-weight: 400;
+  color: white;
+}
+
+
+.find-Weather-btn{
+margin-left: 20%;
+padding: 2vh;
+color: black;
+background-color: #5879c7;
+font-size: 25px;
+font-weight:100;
+border: none;
+
+}
+
 
 .App-body {
-  background-color: #759eda;
+  background-color: #9ccef4;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -19,10 +42,6 @@
   color: white;
   font: Raleway;
 }
-.header{
-  height: 20px;
-}
-.App-link {
-  color: #61dafb;
-}
+.image{
 
+}
