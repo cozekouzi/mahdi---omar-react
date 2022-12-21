@@ -1,7 +1,7 @@
 import React from "react";
 
 import clear from "../img/weather-icons/clear.svg";
-// import "./Search.css";
+import "./Search.css";
 class Search extends React.Component {
   state = {
     input: ""
